@@ -1,22 +1,15 @@
 /*******************************
 	All Responsive Code
 *******************************/
-@media screen and (max-width: 320px) {
-    
-}
 
-@media screen and (max-width: 480px) {
-    
-}
-
-@media screen and (max-width: 768px) {
-    
+@media screen and (max-width: 1024px) {
+	.work-area .pt-5 {
+		padding-top: 0 !important;
+	}
 }
 
 @media screen and (max-width: 992px) {
-    
-}
-
-@media screen and (max-width: 1024px) {
-    
+    .work-area {
+		clip-path: unset;
+	}
 }
